@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColourPick</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bar"></div>
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <div class="bar4"></div>
+    <div class="bar5"></div>
+    <div class="bar6"></div>
+    <div class="bar7"></div>
+
+    <div class="toColor1"></div>
+    <div class="toColor2"></div>
+    <div class="mainDiv">
+      <form onsubmit="colourIt(event)">
+        <button id="redBtn" onclick="redButtonFunc(event)">Red</button>
+        <button id="blueBtn" onclick="blueButtonFunc(event)">Blue</button>
+        <button id="greenBtn" onclick="greenButtonFunc(event)">Green</button>
+      </form>
+      <h2>Remove Color Here !!!</h2>
+      <form>
+        <button id="removeRed" onclick="removeRedFunc(event)">Red</button>
+        <button id="removeRed" onclick="removeBlueFunc(event)">Blue</button>
+        <button id="removeRed" onclick="removeGreenFunc(event)">Green</button>
+      </form>
+      <div id="red">Red</div>
+      <div id="blue">Blue</div>
+      <div id="green">Green</div>
+
+      <button class="allBtn" onclick="removeAll(event)">
+        Remove All Colors
+      </button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

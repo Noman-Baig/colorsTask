@@ -1,0 +1,184 @@
+body {
+  background: rgb(131, 161, 175);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.toColor1 {
+  top: -80%;
+  left: -50%;
+  height: 1000px;
+  width: 1000px;
+  background: rgba(21, 25, 146, 0.3);
+  position: absolute;
+  border-radius: 50%;
+}
+.toColor2 {
+  bottom: -25%;
+  right: -15%;
+
+  height: 500px;
+  width: 500px;
+  background: rgba(21, 25, 146, 0.1);
+  position: absolute;
+  border-radius: 50% 50% 50% 50%;
+}
+.bar {
+  top: 300px;
+  right: 10%;
+  transform: rotate(-30deg);
+  width: 1100px;
+  height: 4rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar1 {
+  top: 40%;
+  left: 10%;
+  transform: rotate(90deg);
+  width: 480px;
+  height: 0.5rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar2 {
+  top: 04%;
+  left: 27.3%;
+  transform: rotate(0deg);
+  width: 640px;
+  height: 0.5rem;
+  background: rgb(145, 31, 31);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar3 {
+  top: 11%;
+  left: 70.3%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 0.5rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar4 {
+  top: 60%;
+  left: 56%;
+  transform: rotate(90deg);
+  width: 500px;
+  height: 0.5rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar6 {
+  top: 97%;
+  left: 27.7%;
+  transform: rotate(0deg);
+  width: 640px;
+  height: 0.5rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.bar7 {
+  top: 87%;
+  left: 23.2%;
+  transform: rotate(90deg);
+  width: 130px;
+  height: 0.5rem;
+  background: rgb(126, 29, 29);
+  position: absolute;
+  border-radius: 50px;
+}
+.mainDiv {
+  top: 08.5%;
+  right: 30%;
+  position: absolute;
+  height: 525px;
+  align-content: center;
+  width: 35%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgb(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+#red {
+  color: aliceblue;
+  border: black 1px solid;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px;
+
+  border: none;
+}
+#blue {
+  color: aliceblue;
+  padding: 10px;
+  border: black 1px solid;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+}
+#green {
+  color: aliceblue;
+  padding: 10px;
+  border: black 1px solid;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+}
+
+h2 {
+  padding: 10px;
+  border: black 1px solid;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  color: aliceblue;
+}
+button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+  background: rgb(255, 255, 255, 0.1);
+
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.allBtn {
+  margin-top: 15px;
+}
